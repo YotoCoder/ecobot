@@ -1,9 +1,8 @@
 #!/usr/bin/python
 #author @yonathansoto
-
+#test
 import telebot
 
-#Acá colocan su api
 API_TOKEN = '864289740:AAFSutec8On7FdI5A6y3esd980LcO-p6D2Y'
 
 bot = telebot.TeleBot(API_TOKEN)
