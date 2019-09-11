@@ -1,9 +1,10 @@
 #!/usr/bin/python
 #author @yonathansoto
 #test
+import os
 import telebot
 
-API_TOKEN = '864289740:AAFSutec8On7FdI5A6y3esd980LcO-p6D2Y'
+API_TOKEN = API_TOKEN = os.environ.get("SECRET_KEY")
 
 bot = telebot.TeleBot(API_TOKEN)
 
